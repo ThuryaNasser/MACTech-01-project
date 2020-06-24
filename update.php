@@ -1,3 +1,5 @@
+<!-- Mujaba update the update.php file --!>
+
 <?php
 include 'includes/headerAdmin.php';
 //require 'includes/dbh.inc.php';
