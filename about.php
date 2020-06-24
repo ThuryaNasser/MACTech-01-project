@@ -4,9 +4,9 @@ include 'includes/header.php';
 //require 'includes/dbh.inc.php';
  ?>
 
-<head>
 
-   
+<head>
+  <!-- head --> 
     <title>About us</title>
 </head>
 <html lang="en">
