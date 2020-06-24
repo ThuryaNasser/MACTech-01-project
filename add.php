@@ -1,39 +1,37 @@
 <?php
 
-   $page_title='Add Product | ZERI ADMIN';
+   $page_title = 'Add Product | ZERI ADMIN';
 
   require 'includes/dbh.inc.php';
 
   session_start();
   $adminid = $_SESSION['Admin_id'];
 
-  if(isset($_POST['add']))
-  {
-    $name=$_POST["name"];
-    $id=$_POST["id"];
-    $quantity=$_POST["quantity"];
-    $price=$_POST["price"];
-    $size=$_POST["size"];
-    $category=$_POST["category"];
-    $description=$_POST["description"];
+  if (isset($_POST['add'])) {
+      $name = $_POST['name'];
+      $id = $_POST['id'];
+      $quantity = $_POST['quantity'];
+      $price = $_POST['price'];
+      $size = $_POST['size'];
+      $category = $_POST['category'];
+      $description = $_POST['description'];
 
-    $image = $_FILES['fileToUpload']['name'];
-    $target = "images/".basename($image);
+      $image = $_FILES['fileToUpload']['name'];
+      $target = 'images/'.basename($image);
 
-    $query = "INSERT into product (Product_id, Product_img, Product_Name, Product_Description, Product_price, Product_quantity, Product_size, Product_category, Admin_id) VALUES ('$id', '$image', '$name', '$description', '$price', $quantity, '$size', '$category', '$adminid')";
-    $result = mysqli_query($conn, $query);
+      $query = "INSERT into product (Product_id, Product_img, Product_Name, Product_Description, Product_price, Product_quantity, Product_size, Product_category, Admin_id) VALUES ('$id', '$image', '$name', '$description', '$price', $quantity, '$size', '$category', '$adminid')";
+      $result = mysqli_query($conn, $query);
 
-    if($result)
-    {
-        //move_uploaded_file($_FILES['fileToUpload']['tmp_name'], $target);
+      if ($result) {
+          //move_uploaded_file($_FILES['fileToUpload']['tmp_name'], $target);
         ?> 
         <script> 
             alert("The product has been added.");   
          </script>
         <?php
-    }
-    else
-        echo $conn->error;
+      } else {
+          echo $conn->error;
+      }
   }
 
 ?>
@@ -43,6 +41,7 @@
 <!-- Basic -->
 
 <head>
+<h1> summer trainning 2020</h1>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
