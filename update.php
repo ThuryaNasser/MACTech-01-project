@@ -151,7 +151,7 @@ include 'includes/headerAdmin.php';
      <?php
     }}}
 
-    else if ($data == "updated")
+   <!-- else if ($data == "updated")
     {
         $name=$_POST["name"];
         $quantity=$_POST["quantity"];
@@ -168,7 +168,7 @@ include 'includes/headerAdmin.php';
 
         //move_uploaded_file($_FILES['fileToUpload']['tmp_name'], $target);
 
-        echo "<br><br><br><br><br><br><br><h2>The product has been updated.</h2>";   
+        //echo "<br><br><br><br><br><br><br><h2>The product has been updated.</h2>";   --
 
     }
 

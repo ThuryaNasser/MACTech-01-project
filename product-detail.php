@@ -59,7 +59,7 @@ require 'includes/dbh.inc.php';
 
 
     <!-- Start All Title Box -->
-    <div class="all-title-box">
+   <!-- <div class="all-title-box">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -69,7 +69,7 @@ require 'includes/dbh.inc.php';
                         <li class="breadcrumb-item"><a href="shop.php">CATEGORIES</a></li>
                         <li class="breadcrumb-item active">Product Details</li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@ require 'includes/dbh.inc.php';
     <div class="shop-detail-box-main">
         <div class="container">
             <div class="row">
-                <!--<div class="col-xl-5 col-lg-5 col-md-6">
+                <div class="col-xl-5 col-lg-5 col-md-6">
                     <div id="carousel-example-1" class="single-product-slider carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active"> <img class="d-block w-100" src="images/big-img-01.jpg" alt="First slide"> </div>
@@ -106,7 +106,7 @@ require 'includes/dbh.inc.php';
                             </li>
                         </ol>
                     </div>
-                </div>-->
+                </div>
         <div class="single-product-details">
 
             <?php

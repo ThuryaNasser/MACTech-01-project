@@ -40,15 +40,15 @@ include 'includes/header.php';
                 </div>
                 <div class="col-lg-6">
                     <h2 class="noo-sh-title-top">We are <span>ZERI</span></h2>
-                    <p>"More than a place to shop. Both buttons hold the concept of integrating fashion,
+                    <p>" More than a place to shop. Both buttons hold the concept of integrating fashion,
                          design, beauty, art, and more. It includes a variety of elements from local,
                           Gulf and Arab brands from different designs in amazing settings,
                          as these designs are updated frequently and with new elements with great care."</p>
 
                     <br>
 
-                    <h2 class="noo-sh-title-top">Our Goal</h2>
-                    <p>"ZERI aims to maintain the highest standards in terms of customer service and product quality,
+                    <!--<h2 class="noo-sh-title-top">Our Goal</h2>-->
+                    <p>"ssssssssssssssss ZERI aims to maintain the highest standards in terms of customer service and product quality,
                          and to choose a wide range of exhibits to meet the needs of the target market.
                          This also helps preserve the institution's image and reputation.
                         We value our team members and encourage their growth and promotion throughout their careers.
