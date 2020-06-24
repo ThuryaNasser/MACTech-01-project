@@ -4,9 +4,9 @@ include 'includes/header.php';
 //require 'includes/dbh.inc.php';
  ?>
 
-<head>
 
-   
+<head>
+  <!-- head --> 
     <title>About us</title>
 </head>
 <html lang="en">
@@ -59,7 +59,7 @@ include 'includes/header.php';
 
                 </div>
             </div>
-            <div class="row my-5">
+           <!-- <div class="row my-5">
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>Our Designs</h3>
@@ -67,15 +67,15 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
+                 <div class="service-block-inner">
                         <h3>We are Professional</h3>
                         <p>Whether in terms of quality, manufacture, design, product, or shipping, don't worry, you're dealing with the best side. </p>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Expert</h3>
-                        <p>For years we have been in this field!. </p>
+                        <p> ssss For years we have been in this field!. </p>
                     </div>
                 </div>
             </div>
