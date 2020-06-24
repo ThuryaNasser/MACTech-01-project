@@ -17,7 +17,7 @@ require 'includes/dbh.inc.php';
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Site Metas -->
-        <title>Beaded evening dress details | ZERI</title>
+        <title>Beaded evening dress details | ZERI with MAC Tech Team</title>
 
         <!-- Style border -->
         <style type="text/css">
