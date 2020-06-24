@@ -126,7 +126,7 @@ require 'includes/dbh.inc.php';
                             <td style="width: 70%; padding-left: 30px;">
                             <h2><?php echo $row["Product_Name"]; ?></h2>
                             <h5><?php echo $row["Product_price"]; ?> SR</h5>
-                            <p>FAST DELIVERY <p>
+                            
                             <hr />
                                 <h4>Description:</h4>
                                     <p>
