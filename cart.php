@@ -1,7 +1,7 @@
 ﻿<?php
 error_reporting(0);
 
-$page_title='MACTech COOP | ZERI';
+$page_title='Cart | MAC-Tech COOP | ZERI';
 
 include 'includes/header.php';
 require 'includes/dbh.inc.php';
